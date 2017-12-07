@@ -1,0 +1,193 @@
+/*IMPORT START*/
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+/*IMPORT END*/
+
+/*
+-COLOR REFERENCE-
+Main Theme Color: #2C2726
+Link Color: #584F4D
+*/
+
+/*HEAD START*/
+h1 {
+  text-align: center;
+  font-size: 60;
+  color: #2C2726;
+  font-family: work sans;
+  letter-spacing: 0.07em;
+}
+
+h2 {
+  text-align: center;
+  font-size: 25;
+  color: #2C2726;
+  font-family: work sans;
+  font-style: italic;
+  letter-spacing: 0.07em;
+}
+
+h3 {
+  text-align: center;
+  font-size: 18;
+  color: #2C2726;
+  font-family: work sans;
+  font-style: italic;
+  letter-spacing: 0.07em;
+}
+/*HEAD END*/
+
+/*BODY START*/
+hr {
+  width: 540px;
+  display: none;
+}
+
+p {
+  font-family: work sans;
+  text-align: center;
+  letter-spacing: 0.07em;
+}
+
+/*CLASSES START*/
+/*CONTACT.html START*/
+.contactInfoContainer {
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+.contactInputContainer {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+input[type=text], input[type=tel], textarea {
+  width: 50%; /*width of the contents inside the containerContent*/
+  padding: 12px;
+  border: 1px solid #CCC;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 12px;
+  resize: vertical;
+  font-size: inherit;
+  font-family: regular;
+  letter-spacing: 0.07em;
+  text-align: center;
+}
+
+input[type=submit] {
+  background-color: #2C2726;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #584F4D;
+}
+/*CONTACT.html END*/
+
+/*Dropdown link classes START*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #F9F9F9;
+  border-radius: 2px;
+  opacity: 0.9;
+  min-width: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  overflow: auto;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  padding:  12px 12px 12px 12px;
+  display: block;
+}
+/*Dropdown link classes END*/
+
+
+
+
+
+/*MISC  classes START*/
+.aboutMeImg { /*aboutMeImg is specific to the aboutMePicture only*/
+  text-align: center;
+  padding-top: 5px;
+  margin-right: 25px;
+}
+
+.iconsBottomPage {
+  text-align: center;
+  padding-top: 70px;
+  padding-right: 17px;
+}
+
+.imageResize {
+  width: 24px;
+  height: auto;
+}
+/*MISC classes END*/
+/*CLASSES END*/
+/*BODY END*/
+
+/*Link START*/
+a {
+  font-size: 13px;
+  font-family: work sans;
+  text-align: center;
+  text-decoration: none;
+  padding-left: 1.5em;
+  letter-spacing: 0.5em;
+}
+
+a:link {
+  color: #584F4D;
+}
+
+a:visited {
+  color: #584F4D;
+}
+
+a:hover {
+ color: #BCB8B7;
+}
+
+a:active {
+  color: #BCB8B7;
+}
+/*Link END*/
+
+/*ID START*/
+/*Wrapper ID START*/
+/*Wrapper ID END*/
+
+
+
+
+/*MISC START*/
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th {
+  font-family: work sans;
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: top;
+}
+/*MISC END*/
+/*ID END*/
